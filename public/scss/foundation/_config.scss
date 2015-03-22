@@ -23,24 +23,24 @@ $debug: false;
 
 // ----- Palette ----- //
 
-$plum: #35D7BB;
+$plum: #d78e07;
 
 // ----- Base ----- //
 
 $c-background: #fafafa;
 $c-border: #E8E8E8;
-$c-border-settings: #4F535B;
-$c-highlight: #35D7BB;
+$c-border-settings: #ba480d;
+$c-highlight: #d76e1a;
 $c-subdue: lighten($plum, 40%);
 $c-text-invert: white;
-$c-text: #373D49;
+$c-text: #694f34;
 $c-links: #A0AABF;
 $c-icon: #D3DAEA;
 $c-dropdown-link: #D0D6E2;
-$c-background-highlight: #1D212A;
+$c-background-highlight: #413020;
 $c-background-navbar: $c-text;
 $c-background-settings: $c-text;
-$c-background-sidebar: #2B2F36;
+$c-background-sidebar: #a7780e;
 $c-button-save: #4A5261;
 $c-switchery: #4B5363;
 $c-box-shadow-switchery: #14171F;
@@ -145,9 +145,9 @@ $modular-scale: (
 
 $base-border-radius: 3px;
 $base-border-style:  solid;
-$base-border-width:  2px;
+$base-border-width:  1px;
 $base-border:        $base-border-width $base-border-style $c-border;
-$base-box-shadow:    0 2px 0 rgba($c-text, .25);
+$base-box-shadow:    0 0 2px rgba($c-text, .25);
 
 // -------------------------------------
 //   Components
