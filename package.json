@@ -1,7 +1,7 @@
 {
   "name": "md-visual",
   "description": "Dockerized HTML5 based Visual Markdown Editor based on Dillinger by Joe McCann.",
-  "version": "1.0",
+  "version": "0.0.9",
   "author": {
     "name": "Markus Kosmal",
     "email": "code@m-ko-x.de"
