@@ -1,13 +1,12 @@
 var rc = require('rc'),
   defaultConfig = {
-    title: 'Online Markdown Editor - Dillinger, the Last Markdown Editor ever.',
-    description: 'Dillinger is an online cloud based HTML5 filled Markdown Editor. ' +
-      'Sync with Dropbox, Github and Google Drive. 100% Open Source!',
-    googleWebmasterMeta: 'DAyGOgtsg8rJpq9VVktKzDkQ1UhXm1FYl8SD47hPkjA',
-    keywords: 'Markdown, Dillinger, Editor, ACE, Github, Open Source, Node.js',
-    author: 'Joe McCann and Martin Broder'
+    title: 'MD-Visual',
+    description: 'HTML5 Open Source Markdown Editor based on Dillinger',
+    keywords: 'MD-Visual, Markdown, Dillinger, Editor, ACE, Github, Open Source, Node.js',
+    author: 'Joe McCann and Martin Broder - extended by Markus Kosmal',
+    googleWebmasterMeta: 'none'
   };
 
 module.exports = function() {
-  return rc('dillinger', defaultConfig);
+  return rc('md-visual', defaultConfig);
 };
