@@ -8,23 +8,9 @@ Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered H
 
 ## quickstart
 
-### classic, latest
     docker run -d --name dillinger -p 8080:8080 mkodockx/docker-dillinger:classic
 
 Uses the original Dockerfile from [base repo](https://github.com/joemccann/dillinger)
-
-### slim
-    docker run -d --name dillinger -p 8080:8080 mkodockx/docker-dillinger:slim
-    
-Uses modified container stack (similar to [GoogleCloudPlatform](https://github.com/GoogleCloudPlatform/nodejs-docker)) and configuration:
-1. Use minimal debootstrap base image (google uses a deprecated version as last seen)
-2. Decouple nodejs setup itself
-    * binaries predownloaded
-    * docs almost completly removed
-    * left man
-    * removed annoying hacks
-    * removed superfluous dependencies
-3. Decouple nodejs runtime
 
 ## third-party store
 
